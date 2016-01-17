@@ -10,5 +10,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)ImagePickerSample.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\StartPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ResizedImagesVM.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UIControls\CustomImageCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UIControls\SquareImageView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pickers\XamPluginMediaPicker.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Pages\" />
+    <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
+    <Folder Include="$(MSBuildThisFileDirectory)UIControls\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Pickers\" />
   </ItemGroup>
 </Project>
