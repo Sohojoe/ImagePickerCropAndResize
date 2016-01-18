@@ -1,6 +1,9 @@
 ﻿using System;
 
 using Xamarin.Forms;
+using FFImageLoading.Forms.Sample.ViewModels;
+using DLToolkit.PageFactory;
+using FFImageLoading.Forms.Sample.Pages;
 
 namespace ImagePickerSample
 {
@@ -9,7 +12,10 @@ namespace ImagePickerSample
 		public App ()
 		{
 			// The root page of your application
-			MainPage = new StartPage ();
+			FFImageLoading.Forms.Touch.CachedImageRenderer.Init();
+//			MainPage = new XamarinFormsPageFactory().Init<HomeViewModel, PFNavigationPage>();
+			MainPage = new PickerPage ();
+//			MainPage = new CropTransformationPage ();
 //			MainPage = new ContentPage {
 //				Content = new StackLayout {
 //					VerticalOptions = LayoutOptions.Center,

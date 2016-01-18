@@ -10,16 +10,28 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)ImagePickerSample.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Pages\StartPage.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ResizedImagesVM.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)UIControls\CustomImageCell.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)UIControls\SquareImageView.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Pickers\XamPluginMediaPicker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\CropTransformationPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\CustomCacheKeyPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ListExampleItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\ListHeavyItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\MenuItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\BaseExampleViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\CropTransformationViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\CustomCacheKeyViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ListExampleViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\TransformationExampleViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FFImageLoading.Transformations\CornerTransformType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FFImageLoading.Transformations\FlipType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\PickerPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Pages\" />
     <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
     <Folder Include="$(MSBuildThisFileDirectory)UIControls\" />
     <Folder Include="$(MSBuildThisFileDirectory)Pickers\" />
+    <Folder Include="$(MSBuildThisFileDirectory)FFImageLoading.Transformations\" />
   </ItemGroup>
 </Project>
