@@ -75,8 +75,6 @@ namespace ImagePickerSample
 			Debug.WriteLine (mediaFile);
 			ffImage.Source = Xamarin.Forms.ImageSource.FromFile (mediaFile.Path);
 			formsImage.Source = Xamarin.Forms.ImageSource.FromStream (() => mediaFile.GetStream());
-//			ffImage.Source = ImageSource.FromStream (() => imageStream);
-//			formsImage.Source = ImageSource.FromStream (() => imageStream);
 			ffImage.Finish += FfImage_Finish;
 		}
 
